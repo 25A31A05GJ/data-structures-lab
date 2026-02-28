@@ -1,1 +1,18 @@
-
+// write a c++ program to implement swapping of two numbers using reference oprator
+#include<iostream>
+using namespace>
+int main()
+{
+  int a,b;
+  cout<<"enter a,b values";
+  cin>>a>>b;
+  swap(a,b)
+  int swap(int&x,int&y)
+  {
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    cout<<x<<y;
+  }
+}
+  
